@@ -1,0 +1,25 @@
+.video-main-container {
+  
+}
+
+.video-container {
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  padding: 20px;
+  background: #555;
+  border-radius: 10px;
+}
+
+.video-btn {
+  cursor: pointer;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+@media (max-width: 500px) {
+  .video-container {
+    padding: 0;
+    width: 100%;
+  }
+}

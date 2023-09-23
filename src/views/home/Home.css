@@ -1,0 +1,11 @@
+.home-main-container {
+  
+}
+
+.home-media-card-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

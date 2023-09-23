@@ -1,0 +1,35 @@
+.media-card-main-container {
+  width: 24%;
+  height: 350px;
+  cursor: pointer;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, black, #555);
+}
+
+.media-card-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-card-title-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.media-card-action-container {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

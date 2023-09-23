@@ -1,0 +1,22 @@
+.video-screen-main-container {
+  z-index: 50;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+    top: 0;
+    left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.video-screen-container {
+  width: 60%;
+  margin: auto;
+  height: 100vh;
+  background: black;
+}
+
+@media (max-width: 500px) {
+  .video-screen-container {
+    width: 100%;
+  }
+}
